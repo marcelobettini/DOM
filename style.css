@@ -1,0 +1,41 @@
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea {
+    margin-bottom: 2rem;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    resize: none;
+}
+
+section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #979690;
+    border: 1px solid;
+    border-radius: 7px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 550px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

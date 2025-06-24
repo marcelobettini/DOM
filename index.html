@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Manipulación del DOM</title>
+</head>
+
+<body>
+    <section>
+        <form>
+            <label for="inputTitle">Escriba el título
+            </label>
+            <input type="text" id="inputTitle">
+            <label for="inputSubtitle">Escriba el subtítulo
+            </label>
+            <input type="text" id="inputSubtitle">
+            <label for="inputBody">Cuerpo de la nota</label>
+            <textarea id="inputBody"></textarea>
+            <div class="bottom-container">
+                <div>
+                    <label for="inputColor"> Elija color de fondo</label>
+                    <input type="color" id="inputColor">
+                </div>
+                <div>
+                    <button type="submit">Aceptar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+
+    <section id="targetContainer">
+        <article>
+            <h1 id="targetTitle">Título</h1>
+            <h3 id="targetSubtitle">Subtítulo</h3>
+            <p id="targetBody">Cuerpo</p>
+        </article>
+        <button id="btnReset">Reiniciar</button>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
